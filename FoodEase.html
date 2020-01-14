@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+        <title>Eric Liang Portfolio - FoodEase</title>
+        <link rel="shortcut icon" type="image/png" href="favicon2.png">
+    </head>
+    
+    <body>
+        <section class="about">
+            <div class="foodease-text">
+                <h2>FoodEase</h2>
+                <img src="resources/img/foodease.jpg" class="project_picture" alt="Picture of app">
+                <p class="introduction">
+                    Have you ever been desperately hungry but didn't know what to cook for yourself? Well FoodEase aims to help you solve that exact problem! FoodEase is a web/mobile application that allows you to upload a picture of the ingredients you have in your fridge and recognizes the ingredients using Google's Cloud-Vision API. It then presents you with food recipes you can make with your available ingredients as well as the nutritional data associated with each recipe. I, along with three other students built this application for QHacks 2019 (my second Hackathon!). Here is a link to the <a href="https://devpost.com/software/foodease" target="_blank">Devpost</a> and here is a link to the <a href="https://github.com/ericliang796/FoodEase" target="_blank">Github</a> repo.
+                    <br>
+                    <br>
+                    <strong>How we built it:</strong> Reading any .jpg files in the path defined, we load them into Google's Cloud-Vision-API giving us the ingredient name. From there we poll Edamam's API to give us the nutritional and Recipe information. Passing these in a JSON format to the Front-end where we pick it up using JavaScript. The Back-end is wrapped in Flask allowing for accessible ports and passing the information through.
+                    <br>
+                    <br>
+                    <strong>Technolgies used:</strong> PHP, Django, Flask, MongoDB, SQL, Swift, Android Studio, Python, Node.js, JavaScript, HTML, CSS
+                </p>
+                <a class="btn btn-full" href="index.html">Back</a>
+            </div>
+            
+        </section>
+    </body>
+</html>

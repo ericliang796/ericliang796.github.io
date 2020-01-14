@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+        <title>Eric Liang Portfolio - Conway's Game of Life </title>
+        <link rel="shortcut icon" type="image/png" href="favicon2.png">
+    </head>
+    
+    <body>
+        <section class="about">
+            <div class="conwayslife-text">
+                <h2>Conway's Game of Life</h2>
+                    <video width="468" height="436" controls class="project_video">
+                        <source src="resources/video/ConwaysGameOfLife.mp4">
+                    Your browser does not support the video tag.
+                    </video>
+
+                <p class="introduction">
+                    This is an implementation of the famous Conway's Game of Life that I made to practice my C++ skills. The game is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves, or, for advanced players, by creating patterns with particular properties. Live cells and dead cells follow specific transitional rules, which are denoted below. The character "o" denotes a live cell while "." denotes a dead cell. Link to <a href="https://github.com/ericliang796/Conways-Game-of-Life" target="_blank">Github</a>.
+                    <br>
+                    <br>
+                    <strong>Transition Rules:</strong> 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
+                    <br>
+                    2. Any live cell with two or three live neighbours lives on to the next generation.
+                    <br>
+                    3. Any live cell with more than three live neighbours dies, as if by overpopulation.
+                    <br>
+                    4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+                    <br>
+                    <br>
+                    <strong>Technologies Used:</strong> C++, BASH, Quicktime Player
+                    
+                </p>
+                
+                <a class="btn btn-full" href="index.html">Back</a>
+            </div>
+            
+        </section>
+    </body>
+</html>
